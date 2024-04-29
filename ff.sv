@@ -1,4 +1,4 @@
-module ff_extended #(
+module ff_reference #(
     parameter WIDTH = 4
 ) (
     input logic clk, 
