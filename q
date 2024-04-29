@@ -13,7 +13,7 @@ module muxes (
     always_comb begin
         if (xor_out) begin
             y0_o = d_i;
-        } else {
+        end else begin
             y0_o = c_i;
         end
     end
